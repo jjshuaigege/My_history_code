@@ -1,0 +1,10 @@
+"""
+ord()是求字符的编码
+chr()是根据编码求字符
+字符在python中是长度为1的字符串
+"""
+n1=ord("D")
+n2=ord("d")
+print(chr(n2-n1+ord("H")))
+print("n1=%d,n2=%d"%(n1,n2))
+print(chr(ord("A")+4))

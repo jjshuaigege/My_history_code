@@ -1,0 +1,21 @@
+"""
+append(x)
+extend(x)
+insert(i,x)
+remove(x)      删除第一个值为x的元素，后面不再看（有重复的只删除第一个）
+reverse()
+index(x)
+"""
+a=[4,9,8]
+b=[6,5,6]
+a.append(10)
+print(a)
+a.extend(b)
+print(a)
+a.remove(6)
+print(a)
+a.insert(3,11)
+print(a)
+print(a.index(6))
+a.reverse()
+print(a)

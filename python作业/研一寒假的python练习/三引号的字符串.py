@@ -1,0 +1,22 @@
+print("start")
+#三引号可以表示多行字符串!
+a='''hello
+world'''
+print(a)
+print("end")
+print("输入\t表示换行")
+text="这个keyi"
+c1=text[0]
+c2=text[1]
+c3=text[2]
+c4=text[-1]
+print(c1,c2,c3,c4)
+print(c2+c3)
+segement=text[-1:-7:-1]
+print(segement)
+a="{1,5,6,8}"
+b="{1,"
+print(b in a)
+d="588"
+e=int(d)
+print(e)
